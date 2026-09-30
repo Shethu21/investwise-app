@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.investment-container {
+  background: #0b1220;
+  color: #e5e7eb;
+  padding: 28px;
+  border-radius: 16px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.investment-container h2 {
+  color: #22d3ee;
+  margin-bottom: 20px;
+}
+
+.investment-text {
+  margin-bottom: 14px;
+  line-height: 1.7;
+}
+
+.status-box {
+  margin-top: 24px;
+  padding: 14px;
+  background: #020617;
+  border-left: 5px solid #22c55e;
+  border-radius: 8px;
+}
+
+.loading-text {
+  color: #94a3b8;
+}
+
+.error-text {
+  color: #ef4444;
+}
+
+/* Additional Custom Utilities & Glassmorphism */
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.dark .glass-card {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #0ea5e9 0%, #10b981 50%, #6366f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
