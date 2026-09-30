@@ -23,5 +23,5 @@ Thumbs.db
 .idea/
 
 # Database
-backend/prisma/*.db
-backend/prisma/*.db-journal
+# backend/prisma/*.db
+# backend/prisma/*.db-journal
